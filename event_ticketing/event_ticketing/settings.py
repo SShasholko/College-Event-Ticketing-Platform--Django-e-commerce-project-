@@ -66,7 +66,7 @@ EMAIL_BACKENDS = 'django.core.mail.backends.console.EmailBackend'
 
 # Redirect after successful login/logout
 LOGIN_URL = '/accaunts/login/'
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/events/'
 LOGOUT_REDIRECT_URL = '/'
 
 # # Django-Allauth configuration
